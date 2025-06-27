@@ -1,10 +1,10 @@
 Project Purpose: This project is used to classify truthful and deceptive hotel reviews.
 
-Data file: The source required is op_spam_v1.4.zip:
-  This file has 2 folders negative_polarity and positive_polarity.
-    1. Each of these 2 folders have deceptive and truthful level-2 folders
-    2. Each of these level-2 folders have 5 level-3 folders named fold1, fold2, fold3, fold4 & fold5 (20 folders in total).
-    3. Each of these level-2 folders have 80 hotel reviews (1600 reviews in total).
+Data file required: op_spam_v1.4.zip
+This file has 2 folders negative_polarity and positive_polarity.
+  1. Each of these 2 folders have deceptive and truthful level-2 folders
+  2. Each of these level-2 folders have 5 level-3 folders named fold1, fold2, fold3, fold4 & fold5 (20 folders in total).
+  3. Each of these level-2 folders have 80 hotel reviews (1600 reviews in total).
 
 There are 2 python notebooks, 1st for performing EDA and the 2nd for classification:
   1. EDA_Truthful_Deceptive_Hotel_Reviews.ipynb explores the data and creates Hotel_Reviews_EDA.csv. There are 3 other intermediate folders created.
